@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jeko.safetyontheclimbingwall.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/climbing_fon" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edit_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginEight"
+                android:layout_marginRight="@dimen/marginEight"
+                android:hint="@string/editName"
+                android:inputType="textPersonName" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/oneQue" />
+
+            <CheckBox
+                android:id="@+id/one_que1_cb"
+                style="@style/varTextStyle"
+                android:text="@string/oneQueVar1" />
+
+            <CheckBox
+                android:id="@+id/one_que2_cb"
+                style="@style/varTextStyle"
+                android:text="@string/oneQueVar2" />
+
+            <CheckBox
+                android:id="@+id/one_que3_cb"
+                style="@style/varTextStyle"
+                android:text="@string/oneQueVar3" />
+
+            <CheckBox
+                android:id="@+id/one_que4_cb"
+                style="@style/varTextStyle"
+                android:text="@string/oneQueVar4" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/twoQue" />
+
+            <CheckBox
+                android:id="@+id/two_que1_cb"
+                style="@style/varTextStyle"
+                android:text="@string/twoQueVar1" />
+
+            <CheckBox
+                android:id="@+id/two_que2_cb"
+                style="@style/varTextStyle"
+                android:text="@string/twoQueVar2" />
+
+            <CheckBox
+                android:id="@+id/two_que3_cb"
+                style="@style/varTextStyle"
+                android:text="@string/twoQueVar3" />
+
+            <CheckBox
+                android:id="@+id/two_que4_cb"
+                style="@style/varTextStyle"
+                android:text="@string/twoQueVar4" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/threeQue" />
+
+            <EditText
+                android:id="@+id/three_que_et"
+                style="@style/varTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/threeQueHint"
+                android:inputType="textPersonName" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/fourQue" />
+
+            <CheckBox
+                android:id="@+id/four_que1_cb"
+                style="@style/varTextStyle"
+                android:text="@string/fourQueVar1" />
+
+            <CheckBox
+                android:id="@+id/four_que2_cb"
+                style="@style/varTextStyle"
+                android:text="@string/fourQueVar2" />
+
+            <CheckBox
+                android:id="@+id/four_que3_cb"
+                style="@style/varTextStyle"
+                android:text="@string/fourQueVar3" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/fiveQue" />
+
+            <RadioGroup
+                android:id="@+id/five_que_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/five_que1_rb"
+                    style="@style/varTextStyle"
+                    android:text="@string/fiveQueVar1" />
+
+                <RadioButton
+                    android:id="@+id/five_que2_rb"
+                    style="@style/varTextStyle"
+                    android:text="@string/fiveQueVar2" />
+
+                <RadioButton
+                    android:id="@+id/five_que3_rb"
+                    style="@style/varTextStyle"
+                    android:text="@string/fiveQueVar3" />
+
+                <RadioButton
+                    android:id="@+id/five_que4_rb"
+                    style="@style/varTextStyle"
+                    android:text="@string/fiveQueVar4" />
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/sixQue" />
+
+            <RadioGroup
+                android:id="@+id/six_que_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/six_que1_rb"
+                    style="@style/varTextStyle"
+                    android:text="@string/oneQueVar1" />
+
+                <RadioButton
+                    android:id="@+id/six_que2_rb"
+                    style="@style/varTextStyle"
+                    android:text="@string/oneQueVar2" />
+
+                <RadioButton
+                    android:id="@+id/six_que3_rb"
+                    style="@style/varTextStyle"
+                    android:text="@string/sixQueVar" />
+
+            </RadioGroup>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/marginEight"
+                android:layout_marginTop="@dimen/marginEight"
+                android:onClick="result"
+                android:paddingLeft="@dimen/marginForVar"
+                android:paddingRight="@dimen/marginForVar"
+                android:text="@string/result" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

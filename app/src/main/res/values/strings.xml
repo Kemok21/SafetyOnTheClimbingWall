@@ -1,0 +1,43 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Safety  On The Climbing Wall</string>
+    <string name="editName">Enter Your Name</string>
+
+    <string name="oneQue">1. What types of belay are used on climbing wall?</string>
+    <string name="oneQueVar1">To spot</string>
+    <string name="oneQueVar2">Top rope</string>
+    <string name="oneQueVar3">Middle rope</string>
+    <string name="oneQueVar4">Lead rope</string>
+
+    <string name="twoQue">2. Which of the following is not allowed on the rock wall?</string>
+    <string name="twoQueVar1">Grab your hands and step on the safety lugs.</string>
+    <string name="twoQueVar2">To climb with rings on fingers of hands.</string>
+    <string name="twoQueVar3">To climbing and belay with long flowing hair.</string>
+    <string name="twoQueVar4">To be under a climbing man.</string>
+
+    <string name="threeQue">3. In what position is it necessary to carry out the belay of the partner:\n
+                                In the sitting position, in lying position or standing?</string>
+    <string name="threeQueHint">Enter the correct answer</string>
+    <string name="threeQueAns1">standing</string>
+
+    <string name="fourQue">4. What knots are used to tie a rope to a harness?</string>
+    <string name="fourQueVar1">Figure of eight knot</string>
+    <string name="fourQueVar2">Bowline knot</string>
+    <string name="fourQueVar3">Simple knot</string>
+
+    <string name="fiveQue">5. In which cases can you skip to clip a quickdraw?</string>
+    <string name="fiveQueVar1">If the braces are not enough for all safety points.</string>
+    <string name="fiveQueVar2">If the area is easy enough.</string>
+    <string name="fiveQueVar3">If it\'s uncomfortable to clip a quickdraw.</string>
+    <string name="fiveQueVar4">It is forbidden to skip to clip a quickdraw.</string>
+
+    <string name="sixQue">6. What kind of belay should be used before "to clip" a first bolt?</string>
+    <string name="sixQueVar">Self belay</string>
+
+    <string name="result">Result</string>
+
+    <string name="correct">Very good <xliff:g id="name" example="Vasya">%s</xliff:g>! All is correct!
+You are allowed to practice at the climbing wall!</string>
+    <string name="wrong">Try again <xliff:g id="name" example="Vasya">%s</xliff:g>. <xliff:g id="rightAnswers" example="5">%d</xliff:g> out of 6 correctly.</string>
+    <string name="notName">Please enter your name.</string>
+
+</resources>

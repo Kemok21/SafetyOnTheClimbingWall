@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontSizeQuestion">16sp</dimen>
+    <dimen name="marginForQuestion">16dp</dimen>
+    <dimen name="marginEight">8dp</dimen>
+    <dimen name="marginForVar">24dp</dimen>
+</resources>

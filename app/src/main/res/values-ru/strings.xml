@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Техника безопасности на скалодроме</string>
+    <string name="editName">Введите свое имя</string>
+
+    <string name="oneQue">1. Какие виды страховок бывают на скалодроме?</string>
+    <string name="oneQueVar1">Гимнастическая</string>
+    <string name="oneQueVar2">Верхняя</string>
+    <string name="oneQueVar3">Средняя</string>
+    <string name="oneQueVar4">Нижняя</string>
+
+    <string name="twoQue">2. Что из ниже перечисленного запрещено на скалодроме?</string>
+    <string name="twoQueVar1">Браться руками и наступать на страховочные проушины.</string>
+    <string name="twoQueVar2">Лазать с кольцами на пальцах рук и другими украшениями.</string>
+    <string name="twoQueVar3">Лазать и осуществлять страховку с длинными распущенными волосами.</string>
+    <string name="twoQueVar4">Находиться под лезущим человеком.</string>
+
+    <string name="threeQue">3. В каком положении необходимо осуществлять страховку напарника:\n
+                                сидя, лёжа или стоя?</string>
+    <string name="threeQueHint">Напишите правильный ответ</string>
+    <string name="threeQueAns1">стоя</string>
+
+    <string name="fourQue">4. Какие узлы используются для привязывания веревки к страховочной системе?</string>
+    <string name="fourQueVar1">Узел «восьмерка»</string>
+    <string name="fourQueVar2">Узел «двойной булинь»</string>
+    <string name="fourQueVar3">Простой узел</string>
+
+    <string name="fiveQue">5. В каких случаях можно пропускать вщелкивание оттяжек?</string>
+    <string name="fiveQueVar1">Если оттяжек не хватает на все страховочные точки.</string>
+    <string name="fiveQueVar2">Если участок достаточно лёгкий.</string>
+    <string name="fiveQueVar3">Неудобно вщелкнуть оттяжку.</string>
+    <string name="fiveQueVar4">Нельзя пропускать вщелкивание оттяжек.</string>
+
+    <string name="sixQue">6. Какая страховка должна осуществляться до «прощелкивания» в первую оттяжку?</string>
+    <string name="sixQueVar">Самостраховка</string>
+
+    <string name="result">Результат</string>
+
+    <string name="correct">Очень хорошо, <xliff:g id="name" example="Vasya">%s</xliff:g>! Все верно!
+Вы допущены до тренировки на скалодроме!</string>
+    <string name="wrong"><xliff:g id="name" example="Vasya">%s</xliff:g>, попробуйте еще раз. <xliff:g id="rightAnswers" example="5">%d</xliff:g> из 6 верно.</string>
+    <string name="notName">Пожалуйста, введите свое имя.</string>
+</resources>
